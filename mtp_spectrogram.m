@@ -55,7 +55,7 @@ function [Spec_t, Spec_f, Spec_taper_mean] = mtp_spectrogram(time, X, Fs, nw, nt
 % [5] MATLAB Documentation. https://www.mathworks.com/help/signal/ref/dpss.html
 
 % Written by SungJun Cho, October 2020
-% Last modified Dec 07, 2020
+% Last modified Jan 19, 2021
 % Copyright (c) 2020 SungJun Cho
 % This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 % License: https://creativecommons.org/licenses/by-nc-sa/4.0/
