@@ -55,7 +55,7 @@ end
 %% Preprocess Data
 % Create Time Array
 if isempty(time)
-    time = linspace(1, length(X)/Fs, length(X));
+    time = linspace(0, length(X)/Fs, length(X));
 end
 % Set Important Parameters
 % dt = 1/Fs;
