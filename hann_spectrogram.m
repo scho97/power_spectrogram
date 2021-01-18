@@ -30,7 +30,7 @@ function [Spec_f, Spec_t, Spec] = hann_spectrogram(time, X, Fs, lf, hf, window_s
 % 3. Spec_taper_mean  [floor(diff(t_fft)/dt)+1 x length(lf:hf) matrix]   : matrix of calculated spectral power
 
 % Written by SungJun Cho, December 2020
-% Last modified Dec 07, 2020
+% Last modified Jan 19, 2021
 % Copyright (c) 2020 SungJun Cho
 % This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 % License: https://creativecommons.org/licenses/by-nc-sa/4.0/
