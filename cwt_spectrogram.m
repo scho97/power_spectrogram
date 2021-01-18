@@ -41,7 +41,7 @@ function [powermat,wtcoefs,freq,time] = cwt_spectrogram(time, X, Fs, wname, verb
 % Note: As indicated by MATLAB,the plot uses a logarithmic frequency axis (in powers of 10) since frequencies in the CWT are logarithmic.
 
 % Written by SungJun Cho, December 2020
-% Last modified Dec 14, 2020
+% Last modified Jan 19, 2021
 % Copyright (c) 2020 SungJun Cho
 % This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 % License: https://creativecommons.org/licenses/by-nc-sa/4.0/
