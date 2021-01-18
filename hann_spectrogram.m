@@ -44,7 +44,7 @@ end
 
 % Create Time Array
 if isempty(time)
-    time = linspace(1, length(X)/Fs, length(X));
+    time = linspace(0, length(X)/Fs, length(X));
 end
 
 %% Calculate FFT-Hanning Spectrogram
