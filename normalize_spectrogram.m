@@ -3,9 +3,9 @@ function [normSpec, muSpec, stdSpec] = normalize_spectrogram(type, method, Spec_
 % This function normalizes the input spectrogram at each frequency level.
 
 % USAGE
-% Full Input : [normSpec, muSpec, stdSpec] = normalize_spectrogram(type, method, Spec_f, Spec_t, Spec, verbose)
-% Example    : [normSpec,~,~] = normalize_spectrogram('FT','zscore', Spec_f, Spec_t, Spec)
-%            : [normSpec,~,~] = normalize_spectrogram('WT','minmax_scale',freq,time,powermat')
+% Full Input : [normSpec, muSpec, stdSpec] = normalize_spectrogram(type, method, Spec_f, Spec_t, Spec, Fs, verbose)
+% Example    : [normSpec,~,~] = normalize_spectrogram('FT','zscore', Spec_f, Spec_t, Spec, Fs)
+%            : [normSpec,~,~] = normalize_spectrogram('WT','minmax_scale',freq,time,powermat', Fs)
 
 % INPUT
 %    Variable       Data Type                                      Description
@@ -34,7 +34,7 @@ function [normSpec, muSpec, stdSpec] = normalize_spectrogram(type, method, Spec_
 
 
 % Written by SungJun Cho, December 2020
-% Last modified Dec 08, 2020
+% Last modified Feb 16, 2021
 % Copyright (c) 2020 SungJun Cho
 % This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 % License: https://creativecommons.org/licenses/by-nc-sa/4.0/
