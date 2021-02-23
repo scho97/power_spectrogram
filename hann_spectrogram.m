@@ -1,7 +1,7 @@
 function [Spec_f, Spec_t, Spec] = hann_spectrogram(time, X, Fs, lf, hf, window_size, dt)
 %% Function 'hann_spectrogram'
 % This function computes and plots a FFT-Hanning spectrogram of an input
-% data. The current version only supports the single-trial multitaper
+% data. The current version only supports the single-trial power
 % spectrogram (i.e. works only for an input data of a signle vector array
 % as of now).
 
