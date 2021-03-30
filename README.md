@@ -6,7 +6,7 @@ This repository features MATLAB scripts for computing and visualizing Fourier an
 Examples of signal preprocessing and power spectrogram generations are demonstrated in `demo.m`, which has to be supplied with the user's own data for the current version v1.1.
 
 ### Notes
-The Python version is in progress and will be updated soon. If you are unfamiliar with signal processing and the codes appear unclear to you, please let me know. If there are any errors you noticed or any contents you would like me to add or remove, I would love to hear more about them. I can be reached by [email](mailto:scho20@uchciago.edu).
+The Python version is in progress and will be updated in future. If you are unfamiliar with signal processing and the codes appear unclear to you, please let me know. If there are any errors you noticed or any contents you would like me to add or remove, I would love to hear more about them. I can be reached by [email](mailto:scho20@uchciago.edu).
 
 ## Helpful Links
 1. For the elimination of pink noise from the time-frequency data, refer to this [page](https://www.mathworks.com/matlabcentral/fileexchange/82470-pink-1-f-noise-elimination-for-time-frequency-data?s_tid=srchtitle).
