@@ -2,6 +2,11 @@
 [![Release](https://img.shields.io/github/release/scho97/power_spectrogram.svg)](https://github.com/scho97/power_spectrogram/releases/latest)
 
 # Power Spectrogram
+*** 
+*** **IMPORTANT NOTE** ***  
+This repository is now archived. For an updated version of the power spectrogram computation, please visit [`Cho2022_BurstDetection`](https://github.com/jeelabKIST/Cho2022_BurstDetection/tree/main/utils/util_spectrogram).
+***
+
 This repository features MATLAB scripts for computing and visualizing Fourier and wavelet transform-based power spectrograms. FT-based methods include `hann_spectrogram.m` and `mtp_spectrogram.m`, which produces a single taper power spectrogram using a Hanning window function and a multitaper power spectrogram that employs discrete prolate spheroidal sequences (DPSS), respectively. `cwt_spectrogram.m` is a WT-based method and performs continuous wavelet transform with a Morlet wavelet in default. Once the spectrogram is attained using one of these three methods, it can be normalized by frequency using `normalize_spectrogram.m`. 
 Examples of signal preprocessing and power spectrogram generations are demonstrated in `demo.m`, which has to be supplied with the user's own data for the current version v1.2.
 
